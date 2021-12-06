@@ -1,0 +1,85 @@
+body { 
+    background-image: url('MaterialeEsercizioLim/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center center;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+}
+
+#logo {
+    max-height: 60%;
+    max-width: 60%;
+}
+
+#content {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 2%;
+    display: grid;
+    place-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+    max-width: 70%;
+}
+
+#buttons {
+    background-color: #00dd00;
+    padding: 1%;
+    place-self: center stretch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+button {
+    gap: 5px;
+    margin: 3px;
+}
+
+#monopattiniStatus {
+    place-self: center stretch;
+}
+
+h1 {
+    color: #00dd00;
+    font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+    font-size: 24px;
+    margin: 5px;
+}
+
+h2 {
+    color: white;
+    font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+    font-size: 20px;
+    margin: 5px;
+}
+
+p {
+    color: white;
+    font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+    margin: 2px;
+}
+
+.firstBar {
+    height: 24px;
+    width: 30%;
+    background-color: #f5b453;
+    border-radius: 5px;
+}
+
+.secondBar {
+    height: 24px;
+    width: 60%;
+    background-color: #1ec31e;
+    border-radius: 5px;
+}
+
+.thirdBar {
+    height: 24px;
+    width: 15%;
+    background-color: #be4141;
+    border-radius: 5px;
+}
